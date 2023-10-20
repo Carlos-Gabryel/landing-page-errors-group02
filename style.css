@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+}
+.background{
+    background: url('assets/background.png');
+    background-repeat: no-repeat;
+    background-position:top right;
+    background-origin: border-box;
+    background-size: contain;
+}
+/* Menu */
+.header {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+}
+.header ul {
+    list-style: none;
+    gap: 4em;
+    display: flex;
+    justify-content:space-around ;
+    color: #CD313E;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.header a {
+    color: #CD313E;
+}
+.buyNow{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 189.131px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #EB423F;
+    color: #fff;
+    border-radius: 2px;
+}
+/* Main */
+.content {
+    padding-top: 240px;
+    padding-bottom: 440px;
+    margin-bottom: 100px;
+    
+}
+.introduce-container {
+    font-size: 18px;
+    max-width: 540px;
+    height: 420px;
+    flex-direction: column;
+    gap: 1em;
+    display: flex;
+    margin-left: 87px;
+}
+.introduceTitle{
+    font-size: 50px;
+    color: #091133;
+}
+.introduce-container p {
+    color:#D44D51;
+    line-height: 1.75;
+}
+.buttons-container{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.button-hero1 {
+    width: 189.131px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #CD313E;
+    color: #fff;
+    border-radius: 3px;
+}
+.button-hero2 {
+    flex-shrink: 0;
+    padding: 5px 60px ;
+    border:2px solid #091133;
+    color: #091133;
+    border-radius: 3px;
+
+}
+/* Footer */
+footer {
+    background-color:#F78282; 
+    padding-top: 68px;
+} 
+.container-footer {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    max-width:1110px ;
+    margin: 0 auto;
+ }
+.footer_div1 {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:  2px solid #fff;
+    color: #fff;
+    padding: 2em 0 3em 0;
+}
+.button-footer{
+    width: 130px;
+    height: 30px;
+    flex-shrink: 0;
+    background-color: #D04A3B;
+    color: #fff;
+    border-radius: 3px;
+}
+.footer_div2{
+    display: flex; 
+    justify-content: space-between;
+    padding: 3em 0 2em 0;
+}
+.footer_div2 ul {
+    display: flex; 
+    gap: 70px;
+}
+.footer_div2 a{
+    color: #fff;
+}
+
+
+
